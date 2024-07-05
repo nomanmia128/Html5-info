@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <link rel="stylesheet" href="style/navegit.css">
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+        td, th{
+            border: 2px solid black;
+            padding: 10px 15px;
+        }
+    </style>
+
+</head>
+<body>
+   <header>
+         <nav>
+            <ul>
+                <li><a href="video.html">Video</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li>
+                    <a href="table.html">Table</a>
+                    <ul class="dropdown">
+                        <li><a href="video.html">Video</a></li>
+                        <li><a href="form.html">Form</a></li>
+                        <li>
+                            <a href="table.html">Table</a>
+                            <ul class="dropdown">
+                                <li><a href="video.html">Video</a></li>
+                                <li><a href="form.html">Form</a></li>
+                                <li><a href="table.html">Table</a></li>
+                                <li>
+                                    <a href="blog.html">Blog</a>
+                                    <ul class="dropdown">
+                                        <li><a href="video.html">Video</a></li>
+                                        <li><a href="form.html">Form</a></li>
+                                        <li><a href="table.html">Table</a></li>
+                                        <li><a href="blog.html">Blog</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="blog.html">Blog</a></li>
+                    </ul>
+                </li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+         </nav>
+   </header>
+    <main>
+        <h2>HTML Table </h2>
+        <table>
+            <caption><b>Employee Salary Data</b></caption>
+            <thead>
+               <tr>
+                    <th>No.</th>
+                    <th>Nmae</th>
+                    <th>Compny</th>
+                    <th>Salary</th> 
+               </tr>
+            </thead>
+            <tbody>
+                 <tr>
+                      <td>1</td>
+                      <td>Bill Gates</td>
+                      <td>Microsoft</td>
+                      <td>&1000</td>
+                 </tr>
+                 <tr>
+                    <td>2</td>
+                    <td>Steve Jobs</td>
+                    <td>Apple</td>
+                    <td>&1200</td>
+               </tr>
+               <tr>
+                    <td>3</td>
+                    <td>Larry Page</td>
+                    <td>Google</td>
+                    <td>&1100</td>
+               </tr>
+               <tr>
+                    <td>4</td>
+                    <td>Mark Zuku</td>
+                    <td>Faecbook</td>
+                    <td>&1300</td>
+               </tr>
+            </tbody>
+            <tfoot>
+                <td colspan="4"><b>Total Employee: 4</b></td>
+            </tfoot>
+        </table>
+        <ul>
+            <li>Table: table</li>
+            <li>Table head: thead</li>
+            <li>Table body: tbody</li>
+            <li>Table footer: tfoot</li>
+            <li>Table row: tr</li>
+            <li>Table data or table cell: td</li>
+            <li>table header cell: th</li>
+            <li>caption</li>        
+        </ul>
+    </main>
+
+</body>
+</html>
